@@ -1,0 +1,16 @@
+[package]
+name = "Aries"
+version = "0.0.0"
+authors = []
+
+[addresses]
+aries_interface = "db495ff915af4ab6cb6a011cb64349b41442068a578e35e25e2fff6990c7c30f"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
